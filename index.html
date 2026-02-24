@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shourov Portfolio</title>
+    <title>Video Editor Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -67,25 +67,37 @@
     </section>
 
     <!-- ================= Projects Section ================= -->
-    <section id="projects" class="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <!-- Image Card -->
-            <div class="project-card">
-                <img src="Assets/thumnel.jpg" alt="Thumbnail Design" onclick="openFullscreen(this)">
-                <h3>Thumbnail / Graphic Design</h3>
-            </div>
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
 
-            <!-- Video Card -->
-            <div class="project-card">
-                <video controls onclick="openFullscreen(this)">
-                    <source src="Assets/0221 (1).mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Cinematic Travel Vlog</h3>
-            </div>
+    <div class="project-grid">
+
+        <!-- Image Card -->
+        <div class="project-card">
+            <img src="Assets/thumnel.jpg" alt="Thumbnail Design" onclick="openFullscreen(this)">
+            <h3>Thumbnail / Graphic Design</h3>
         </div>
-    </section>
+
+        <!-- Video Thumbnail Card (Updated) -->
+        <div class="project-card">
+
+            <a href="https://youtube.com/shorts/4LPW2HNRtao?si=jC-GKdJo_x13hDUX" target="_blank">
+                <div class="video-thumbnail">
+                    
+                    <!-- Thumbnail Image -->
+                    <img src="Assets/thumnel.jpg" alt="Cinematic Travel Vlog">
+
+                    <!-- Play Button -->
+                    <div class="play-btn">▶</div>
+
+                </div>
+            </a>
+
+            <h3><video src=""></video></h3>
+        </div>
+
+    </div>
+</section>
 
     <!-- ================= Contact Section ================= -->
     <section id="contact" class="contact">
@@ -174,5 +186,4 @@
     </script>
 
 </body>
-
 </html>
